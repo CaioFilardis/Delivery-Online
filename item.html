@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frango Louco</title>
+
+    <!-- Link dos estilos -->
+    <link rel="stylesheet" href="./src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/css/fontawesome.css">
+    <link rel="stylesheet" href="./src/css/animate.css">
+    <link rel="stylesheet" href="./src/css/main.css">
+</head>
+<body>
+    
+    <div class="bg-top details"></div> <!-- Texturar superior antes do cabecalho -->
+
+    <!-- Cabecalho -->
+     <header class="width-fix mt-3">
+        <div class="card">
+            <div class="d-flex">
+                <a href="./index.html" class="container-voltar">
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+                <div class="infos text-center"> <!-- Texto dp d-flex -->
+                    <h1 class="mb-0"><b>Detalhes do produto</b></h1>
+                </div>
+            </div><!-- d-flex -->
+        </div><!-- card -->
+     </header>
+
+     <!-- Imagem do produto selecionado -->
+     <section class="imagem width-fix mt-4"> <!-- Será preenchido com JavaScript -->
+            <div class="container-imagem-produto" 
+                style="background-image: url(./src/img/Frango-Louco/frango-cortado.png); background-size: cover;">
+            </div>
+
+            <div class="card mb-2">
+                <div class="d-flex">        
+                    <div class="infos-produto"> <!-- Informações do produto -->
+                        <p class="name mb-2"><b>Frango Inteiro</b></p>
+                        <p class="description mb-4">Frango inteiro temperado, com batata doce, batata calabresa e farofa grátis!!</p>
+                        <p class="price"><b>R$ 35,00</b></p>
+                    </div>
+                </div><!-- d-flex -->
+            </div><!-- card item-cardapio -->
+     </section>
+
+      <!-- Menu Inferior -->
+      <section class="menu-bottom" id="menuBottom">
+            <a class="menu-bottom-item active">
+                <i class="fas fa-book-open"></i>&nbsp; Cardápio
+            </a> 
+
+            <a class="menu-bottom-item">
+                <i class="fas fa-utensils"></i>&nbsp; Pedido
+            </a>   
+
+            <a class="menu-bottom-item">
+                <span class="badge-total-carrinho">2</span>
+               <!--  <i class="fas fa-shopping"></i> -->
+                Carrinho
+            </a>   
+      </section>
+
+      <!-- Status Loja -->
+       <section class="menu-bottom disabled hidden" id="menu-bottom-closed">
+            <p class="mb-0"><b>Estabelecimento fechado no momento</b></p>
+       </section>
+
+    <!-- Link dos Scripts -->
+     <script type="text/javascript" src="./src/js/bootstrap.bundle.min.js"></script>
+     <script type="text/javascript" src="./src/js/cardapio.js"></script>
+     <script type="text/javascript" src="./src/js/"></script>
+     <script type="text/javascript" src="./src/js/"></script>
+     <script type="text/javascript" src="./src/js/"></script>
+</body>
+</html>

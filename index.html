@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./src/css/fontawesome.css">
     <link rel="stylesheet" href="./src/css/animate.css">
     <link rel="stylesheet" href="./src/css/main.css">
+    
 </head>
 <body>
     
@@ -35,6 +36,100 @@
         </div><!-- card -->
      </header>
 
+     <!-- Categoria -->
+      <section class="categoria width-fix mt-4">
+        <div class="container-menu" id="listaCategorias">
+
+            <a href="#" class="item-categoria btn btn-white btn-sm mb-3 me-3 active">
+                <i class="fas fa-drumstick-bite"></i>&nbsp; Frango Assado
+            </a><!-- item-categoria -->
+
+            <a href="#" class="item-categoria btn btn-white btn-sm mb-3 me-3">
+                <i class="fas fa-utensils"></i>&nbsp; Batata Frita
+            </a><!-- item-categoria -->
+
+            <a href="#" class="item-categoria btn btn-white btn-sm mb-3 me-3"> 
+                <i class="fas fa-utensils"></i>&nbsp; Salpicão
+            </a><!-- item-categoria -->
+
+            <a href="#" class="item-categoria btn btn-white btn-sm mb-3 me-3"> 
+                <i class="fas fa-beer"></i>&nbsp; Bebidas
+            </a><!-- item-categoria -->
+
+        </div><!-- container-menu -->
+      </section><!-- categoria -->
+
+      <!-- Lista de produtos -->
+      <section class="lista width-fix mt-0 pb-5" id="listaItensCardapio">
+
+        <div class="container-group mb-5">
+            <p class="title-categoria"><b>Frango Assado</b></p><!-- título -->
+
+            <div class="card mb-2 item-cardapio">
+                <div class="d-flex">
+                    <div class="container-img-produto" 
+                    style="background-image: url('./src/img/Frango-Louco/frango-inteiro.png'); background-size: cover;"> <!-- Imagem do produto -->
+
+                    </div>
+                    <div class="infos-produto"> <!-- Informações do produto -->
+                        <p class="name"><b>Frango Inteiro</b></p>
+                        <p class="description">Frango inteiro temperado, com batata doce, batata calabresa e farofa grátis!!</p>
+                        <p class="price"><b>R$ 35,00</b></p>
+                    </div>
+                </div><!-- d-flex -->
+            </div><!-- card item-cardapio -->
+
+            <div class="card mb-2 item-cardapio">
+                <div class="d-flex">
+                    <div class="container-img-produto" 
+                    style="background-image: url('./src/img/Frango-Louco/frango-cortado.png'); background-size: cover;"> <!-- Imagem do produto -->
+
+                    </div>
+                    <div class="infos-produto"> <!-- Informações do produto -->
+                        <p class="name"><b>Frango Cortado</b></p>
+                        <p class="description">Frango Cortado temperado, para 6 pessoas, com batata doce, batata calabresa e farofa grátis!!</p>
+                        <p class="price"><b>R$ 35,00</b></p>
+                    </div>
+                </div><!-- d-flex -->
+            </div><!-- card item-cardapio -->
+
+            <div class="card mb-2 item-cardapio">
+                <div class="d-flex">
+                    <div class="container-img-produto" 
+                    style="background-image: url('./src/img/Frango-Louco/frango-inteiro.png'); background-size: cover;"> <!-- Imagem do produto -->
+
+                    </div>
+                    <div class="infos-produto"> <!-- Informações do produto -->
+                        <p class="name"><b>Frango Inteiro</b></p>
+                        <p class="description">Frango inteiro temperado, com batata doce, batata calabresa e farofa grátis!!</p>
+                        <p class="price"><b>R$ 35,00</b></p>
+                    </div>
+                </div><!-- d-flex -->
+            </div><!-- card item-cardapio -->
+        </div><!-- container-group -->
+      </section><!-- lista -->
+
+      <!-- Menu Inferior -->
+      <section class="menu-bottom" id="menuBottom">
+            <a class="menu-bottom-item active">
+                <i class="fas fa-book-open"></i>&nbsp; Cardápio
+            </a> 
+
+            <a class="menu-bottom-item">
+                <i class="fas fa-utensils"></i>&nbsp; Pedido
+            </a>   
+
+            <a class="menu-bottom-item">
+                <span class="badge-total-carrinho">2</span>
+               <!--  <i class="fas fa-shopping"></i> -->
+                Carrinho
+            </a>   
+      </section>
+
+      <!-- Status Loja -->
+       <section class="menu-bottom disabled hidden" id="menu-bottom-closed">
+            <p class="mb-0"><b>Estabelecimento fechado no momento</b></p>
+       </section>
 
     <!-- Link dos Scripts -->
      <script type="text/javascript" src="./src/js/bootstrap.bundle.min.js"></script>
